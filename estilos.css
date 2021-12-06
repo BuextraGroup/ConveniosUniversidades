@@ -1,0 +1,58 @@
+body{
+    background: #E8F0F2;
+}
+
+h1{
+    margin-top: 50px;
+}
+
+.formulario{
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.boton{
+    text-align: center;
+}
+
+.tabladatos{
+    margin-top: 50px;
+    margin-left: auto;
+}
+
+.datos{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.datosConvenios{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.actualizar{
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+
+@media all and (max-width: 653px) {
+
+    .formulario, .actualizar{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .datos{
+        font-size: x-small;
+        padding: 0px;
+        
+    }
+    
+    .boton{
+        text-align: center;
+    }
+    
+}
